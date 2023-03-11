@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.4.33205.214
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Odev1", "Odev1", "{BEE96A5B-D339-4846-8ED2-BABD221C60B6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ForLoop", "Odev1\ForLoop\ForLoop.csproj", "{0D9DD6FB-2DE5-4654-B6A9-95128C37360B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WhileLoop", "Odev1\WhileLoop\WhileLoop.csproj", "{39C3F34F-92B2-44FE-BCE1-F759CA36559E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0D9DD6FB-2DE5-4654-B6A9-95128C37360B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0D9DD6FB-2DE5-4654-B6A9-95128C37360B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0D9DD6FB-2DE5-4654-B6A9-95128C37360B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0D9DD6FB-2DE5-4654-B6A9-95128C37360B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{39C3F34F-92B2-44FE-BCE1-F759CA36559E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{39C3F34F-92B2-44FE-BCE1-F759CA36559E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{39C3F34F-92B2-44FE-BCE1-F759CA36559E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{39C3F34F-92B2-44FE-BCE1-F759CA36559E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{0D9DD6FB-2DE5-4654-B6A9-95128C37360B} = {BEE96A5B-D339-4846-8ED2-BABD221C60B6}
+		{39C3F34F-92B2-44FE-BCE1-F759CA36559E} = {BEE96A5B-D339-4846-8ED2-BABD221C60B6}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {4E9D607E-135A-461D-88C2-417DD2E3951A}
+	EndGlobalSection
+EndGlobal
