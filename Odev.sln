@@ -9,7 +9,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ForLoop", "Odev1\ForLoop\Fo
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WhileLoop", "Odev1\WhileLoop\WhileLoop.csproj", "{39C3F34F-92B2-44FE-BCE1-F759CA36559E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DoWhileLoop", "Odev1\DoWhileLoop\DoWhileLoop.csproj", "{4AE0C293-170B-451E-8592-82713761BF3D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DoWhileLoop", "Odev1\DoWhileLoop\DoWhileLoop.csproj", "{4AE0C293-170B-451E-8592-82713761BF3D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Examples", "Examples", "{2CC18754-F256-4141-8331-F14DF0FA8547}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Substring", "Examples\Substring\Substring.csproj", "{669F6C76-AA39-4AB5-902A-268EB7C2BB64}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -29,6 +33,10 @@ Global
 		{4AE0C293-170B-451E-8592-82713761BF3D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4AE0C293-170B-451E-8592-82713761BF3D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4AE0C293-170B-451E-8592-82713761BF3D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{669F6C76-AA39-4AB5-902A-268EB7C2BB64}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{669F6C76-AA39-4AB5-902A-268EB7C2BB64}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{669F6C76-AA39-4AB5-902A-268EB7C2BB64}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{669F6C76-AA39-4AB5-902A-268EB7C2BB64}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -37,6 +45,7 @@ Global
 		{0D9DD6FB-2DE5-4654-B6A9-95128C37360B} = {BEE96A5B-D339-4846-8ED2-BABD221C60B6}
 		{39C3F34F-92B2-44FE-BCE1-F759CA36559E} = {BEE96A5B-D339-4846-8ED2-BABD221C60B6}
 		{4AE0C293-170B-451E-8592-82713761BF3D} = {BEE96A5B-D339-4846-8ED2-BABD221C60B6}
+		{669F6C76-AA39-4AB5-902A-268EB7C2BB64} = {2CC18754-F256-4141-8331-F14DF0FA8547}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {4E9D607E-135A-461D-88C2-417DD2E3951A}
