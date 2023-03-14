@@ -13,7 +13,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DoWhileLoop", "Odev1\DoWhil
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Examples", "Examples", "{2CC18754-F256-4141-8331-F14DF0FA8547}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Substring", "Examples\Substring\Substring.csproj", "{669F6C76-AA39-4AB5-902A-268EB7C2BB64}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Substring", "Examples\Substring\Substring.csproj", "{669F6C76-AA39-4AB5-902A-268EB7C2BB64}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Odev2.Password", "Odev2.Password", "{836C57A7-F471-443D-8C08-64A0EFA53564}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Password", "Odev2.Password\Password\Password.csproj", "{88A9D861-2199-412F-8470-75C80F721A9D}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -37,6 +41,10 @@ Global
 		{669F6C76-AA39-4AB5-902A-268EB7C2BB64}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{669F6C76-AA39-4AB5-902A-268EB7C2BB64}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{669F6C76-AA39-4AB5-902A-268EB7C2BB64}.Release|Any CPU.Build.0 = Release|Any CPU
+		{88A9D861-2199-412F-8470-75C80F721A9D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{88A9D861-2199-412F-8470-75C80F721A9D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{88A9D861-2199-412F-8470-75C80F721A9D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{88A9D861-2199-412F-8470-75C80F721A9D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -46,6 +54,7 @@ Global
 		{39C3F34F-92B2-44FE-BCE1-F759CA36559E} = {BEE96A5B-D339-4846-8ED2-BABD221C60B6}
 		{4AE0C293-170B-451E-8592-82713761BF3D} = {BEE96A5B-D339-4846-8ED2-BABD221C60B6}
 		{669F6C76-AA39-4AB5-902A-268EB7C2BB64} = {2CC18754-F256-4141-8331-F14DF0FA8547}
+		{88A9D861-2199-412F-8470-75C80F721A9D} = {836C57A7-F471-443D-8C08-64A0EFA53564}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {4E9D607E-135A-461D-88C2-417DD2E3951A}
