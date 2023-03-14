@@ -7,10 +7,12 @@ int count = 0;
 int smallestNumber = array[0];
 int greatestNumber = array[0];
 int index = 0;
+int total = 0;
 
 //find smallest and greatest element in array
 while (count < array.Length)
 {
+    total += array[index];
     if (array[index] < smallestNumber)
     {
         smallestNumber = array[index];
@@ -23,11 +25,12 @@ while (count < array.Length)
     index++;
     count++;
 }
-
+int arrayAverage= total/ array.Length;
+Console.WriteLine($"Dizinin aritemtik ortalaması: {arrayAverage}");
 Console.WriteLine($"\n Dizideki en küçük sayı:{smallestNumber}, dizideki en büyük sayı:{greatestNumber}");
 
 int average = (smallestNumber + greatestNumber) / 2;
-Console.WriteLine($"\n Ortalama:{average}");
+Console.WriteLine($"\n En büyük sayı ile en küçük sayının aritmetik ortalaması:{average}");
 int i = 0;
 
 //subtract the average from each element in array

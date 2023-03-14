@@ -1,7 +1,7 @@
 ﻿//dizideki en büyük ve en küçük elemanı bulup iki sayının ortalamasını diziye yeni eleman olarak ekleyen ve diziyi kabarcık sıralamaya göre sıralayan program
 
 int[] array = { 24, 6, 52, 38, 76, 94 };
-
+int total = 0;
 Console.Write("Dizi:");
 foreach (var item in array)
 {
@@ -41,6 +41,7 @@ int[] newArray = arrayList.ToArray();
 int temp;
 for (int i = 0; i < newArray.Length - 1; i++)
 {
+    total += newArray[i];
     for (int j = 0; j < newArray.Length - 1 - i; j++)
     {
         if (newArray[j] > newArray[j + 1])
@@ -52,8 +53,12 @@ for (int i = 0; i < newArray.Length - 1; i++)
     }
 }
 
+int arrayAverage = total / newArray.Length;
+
 Console.WriteLine("\n Kabarcık sıralama ile küçükten büyüğe sıralanmış dizi:");
 foreach (var item in newArray)
 {
     Console.WriteLine(item);
 }
+
+Console.WriteLine($"\nYeni dizinin aritmetik ortalaması: {arrayAverage}");
