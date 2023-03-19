@@ -1,2 +1,7 @@
-﻿// See https://aka.ms/new-console-template for more information
-Console.WriteLine("Hello, World!");
+﻿using OOPExamples;
+
+Philosophy philosophy = new Philosophy();
+philosophy.Question();
+
+Ontology ontology = new Ontology();
+ontology.Question();

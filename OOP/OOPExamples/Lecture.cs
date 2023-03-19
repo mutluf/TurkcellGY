@@ -6,7 +6,11 @@ using System.Threading.Tasks;
 
 namespace OOPExamples
 {
-    internal class Lecture
+    //Abstraction
+    public abstract class Lecture
     {
+        public abstract string Name { get; set; }
+
+        public abstract string Teacher { get; set; }
     }
 }
