@@ -5,7 +5,9 @@ VisualStudioVersion = 17.4.33205.214
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SingleResponsibility", "SingleResponsibility\SingleResponsibility.csproj", "{C365FAAD-2970-49F2-BECB-B2BF9059E107}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OpenClosed", "OpenClosed\OpenClosed.csproj", "{1086FD4D-E7EB-43B2-A6B3-BFA8A4DC1592}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OpenClosed", "OpenClosed\OpenClosed.csproj", "{1086FD4D-E7EB-43B2-A6B3-BFA8A4DC1592}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InterfaceSegregation", "InterfaceSegregation\InterfaceSegregation.csproj", "{8B02F145-0E71-47DB-86DA-CBB2A16ACD7E}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +23,10 @@ Global
 		{1086FD4D-E7EB-43B2-A6B3-BFA8A4DC1592}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1086FD4D-E7EB-43B2-A6B3-BFA8A4DC1592}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1086FD4D-E7EB-43B2-A6B3-BFA8A4DC1592}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8B02F145-0E71-47DB-86DA-CBB2A16ACD7E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8B02F145-0E71-47DB-86DA-CBB2A16ACD7E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8B02F145-0E71-47DB-86DA-CBB2A16ACD7E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8B02F145-0E71-47DB-86DA-CBB2A16ACD7E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
