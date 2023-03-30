@@ -6,7 +6,8 @@ using System.Threading.Tasks;
 
 namespace InterfaceSegregation
 {
-    internal interface IReadRepository
+    public interface IReadRepository<T>:IRepository<T>
     {
+        public T GetAll();
     }
 }

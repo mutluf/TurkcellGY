@@ -6,7 +6,15 @@ using System.Threading.Tasks;
 
 namespace InterfaceSegregation
 {
-    internal class MovieRepository
+    public class MovieRepository : IReadRepository<Movie>
     {
+        public Movie GetAll()
+        {
+            Console.WriteLine("Filmler listelendi");
+            return new Movie();
+        }
+        
     }
+
+    public class Movie { }
 }

@@ -6,7 +6,8 @@ using System.Threading.Tasks;
 
 namespace InterfaceSegregation
 {
-    internal interface IWriteRepository
+    public interface IWriteRepository<T>:IRepository<T>
     {
+        bool AddAysnc(T Model);
     }
 }
